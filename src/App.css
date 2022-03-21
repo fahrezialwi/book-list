@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.category-card {
+  background-color: #3b43e4 !important;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.category-card:hover {
+  background-color: #4f55dd !important;
+  color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 0px !important;
+}
+
+.book-card {
+  background-color: #9c7905 !important;
+  color: white;
+  height: 600px;
+  border-color: #9c7905 !important;
+  transition: 0.2s;
+}
+
+.book-card:hover {
+  background-color: #a08a40 !important;
+  color: white;
+  height: 600px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+
+.image-book { 
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5px; 
+  align-self: center;
+}
+
+.image-book img { 
+  width: 100%;
+  height: auto; 
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item.active .page-link {
+  background-color: #198754!important;
+  border-color: #198754!important;
+  color: #ffffff!important;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d!important;
+}
+  
+.page-link {
+  color: #198754!important;
+}
+
+.page-link:hover {
+  color: #198754!important;
+}
